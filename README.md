@@ -1,5 +1,5 @@
 # CSUnitTestingDemo
-iOS单元测试，解复杂场景使用OCMock轻松化解
+iOS单元测试，复杂场景使用OCMock轻松化解
 
 ## Mock的使用技巧
 实际项目中，很多方法内部实现依赖许多其他类/实例方法
@@ -105,3 +105,8 @@ CSConversationModel *model = [CSChatTool conversationModelForConversationId:mock
     [mockDBTool stopMocking];
 }
 ```
+
+### 单元测试覆盖率
+![显示代码覆盖率](https://github.com/hcsaaron/CSUnitTestingDemo/blob/main/显示覆盖率.png?raw=true)
+![查看代码覆盖率](https://github.com/hcsaaron/CSUnitTestingDemo/blob/main/查看覆盖率.png?raw=true)
+![代码执行次数](https://github.com/hcsaaron/CSUnitTestingDemo/blob/main/代码执行次数.png?raw=true)
